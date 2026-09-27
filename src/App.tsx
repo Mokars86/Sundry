@@ -20,6 +20,7 @@ import { MatchCelebrationModal } from './components/connect/MatchCelebrationModa
 import { ProfileDetailModal } from './components/connect/ProfileDetailModal';
 import { AudioStageModal } from './components/connect/AudioStageModal';
 import { PeerListeningModal } from './components/connect/PeerListeningModal';
+import { InstallAppPrompt } from './components/common/InstallAppPrompt';
 
 const MainShell: React.FC = () => {
   const { activeTab } = useApp();
@@ -90,6 +91,7 @@ const MainShell: React.FC = () => {
       <ProfileDetailModal />
       <AudioStageModal />
       <PeerListeningModal />
+      <InstallAppPrompt />
     </div>
   );
 };

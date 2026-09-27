@@ -1,4 +1,5 @@
 {
+  "id": "/",
   "name": "Sundry",
   "short_name": "Sundry",
   "description": "Sundry — Connect, Share, Grow",
@@ -8,6 +9,7 @@
   "orientation": "portrait-primary",
   "background_color": "#f8fafc",
   "theme_color": "#4f46e5",
+  "categories": ["social", "lifestyle"],
   "icons": [
     {
       "src": "/logo.jpg",
